@@ -131,8 +131,6 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable4 = new javax.swing.JTable();
 
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
         jTextField1.setText("jTextField1");
 
         jLabel1.setText("Grade Level Name");
@@ -169,8 +167,6 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
                 .addContainerGap(406, Short.MAX_VALUE))
         );
 
-        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 530));
-
         jPanel4.setLayout(new java.awt.GridLayout(1, 0));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -200,9 +196,20 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
 
         jPanel4.add(jScrollPane1);
 
-        jPanel2.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 430, 530));
-
-        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         jPanel8.setLayout(new java.awt.GridLayout(1, 0));
 
@@ -232,8 +239,6 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
         jScrollPane2.setViewportView(jTable3);
 
         jPanel8.add(jScrollPane2);
-
-        jPanel6.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, 440, 530));
 
         jPanel7.setPreferredSize(new java.awt.Dimension(220, 530));
 
@@ -273,9 +278,20 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
                 .addContainerGap(403, Short.MAX_VALUE))
         );
 
-        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 530));
-
-        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 440, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -380,8 +396,6 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
                 .addContainerGap())
         );
 
-        jPanel9.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 530));
-
         jPanel5.setLayout(new java.awt.GridLayout(1, 0));
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
@@ -411,9 +425,20 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
 
         jPanel5.add(jScrollPane3);
 
-        jPanel9.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 1030, 530));
-
-        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 1030, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         jPanel14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel14.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -496,8 +521,6 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
                 .addContainerGap())
         );
 
-        jPanel13.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 530));
-
         jPanel15.setLayout(new java.awt.GridLayout(1, 0));
 
         jTable5.setModel(new javax.swing.table.DefaultTableModel(
@@ -530,14 +553,25 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
 
         jPanel15.add(jScrollPane5);
 
-        jPanel13.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, 1040, 530));
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 1040, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new java.awt.GridLayout(1, 0));
 
         Main.setLayout(new java.awt.GridLayout(1, 0));
-
-        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel11.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -642,8 +676,6 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
                 .addGap(29, 29, 29))
         );
 
-        jPanel10.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 230, 530));
-
         jPanel12.setLayout(new java.awt.GridLayout(1, 0));
 
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
@@ -666,7 +698,20 @@ public class MainGUI extends javax.swing.JFrame implements GradeLevelPresenter, 
 
         jPanel12.add(jScrollPane4);
 
-        jPanel10.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 0, 1050, 530));
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 1050, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         Main.add(jPanel10);
 
